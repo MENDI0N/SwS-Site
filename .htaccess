@@ -1,0 +1,11 @@
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9} /index.html HTTPS/
+RewriteRule ^index.html$ https://sws-minecraft.tk/ [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9} /rules.html HTTPS/
+RewriteRule ^rules.html$ https://sws-minecraft.tk/rules/ [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9} /news.html HTTPS/
+RewriteRule ^news.html$ https://sws-minecraft.tk/news/ [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9} /additions.html HTTPS/
+RewriteRule ^additions.html$ https://sws-minecraft.tk/additions/ [R=301,L]
