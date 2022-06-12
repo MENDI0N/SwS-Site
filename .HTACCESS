@@ -1,3 +1,1 @@
-RewriteEngine On
-RewriteBase /
-RewriteRule (.*)\\.html$ $1
+Redirect 301 ^old\.html$ //localhost/rules.html
