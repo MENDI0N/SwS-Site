@@ -1,3 +1,4 @@
+Options +FollowSymLinks -MultiViews
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9} /index.html HTTP/
 RewriteRule ^index.html$ https://sws-minecraft.tk/ [R=301,L]
 
