@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Связывание аккаунтов</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: verdana;
+            font-size: 20px;
+        }
+        .center {
+            text-align: center;
+        }
+        button {
+            font-size: 20px;
+            margin: 10px;
+        }
+    </style>
+    <script>
+        function redirectToBoosty() {
+            window.location.href = 'https://boosty.to/sws_shop';
+        }
+        function redirectToConnection() {
+            window.open('https://discord.com/oauth2/authorize?response_type=code&client_id=669952145352556561&state=%7B%22unregId%22%3A%22web%3A6c330432-881b-4266-97fa-461258a3563f%22%2C%22from%22%3A%22pp.ua%22%2C%22redirectAppId%22%3A%22web%22%7D***-***discord&scope=guilds.join+identify+guilds&access_type=offline&redirect_uri=https://boosty.to/app/oauth_redirect', '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="center">
+        <p>Вы подключили свой аккаунт Discord к своему аккаунту Boosty?</p>
+        <button onclick="redirectToBoosty()">Да</button>
+        <button onclick="redirectToConnection()">Нет</button>
+    </div>
+</body>
+</html>

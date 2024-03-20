@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Вступление в Discord сервер</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: verdana;
+            font-size: 20px;
+        }
+        .center {
+            text-align: center;
+        }
+        button {
+            font-size: 20px;
+            margin: 10px;
+        }
+    </style>
+    <script>
+        function redirectToCheck() {
+            window.location.href = 'check2';
+        }
+        function redirectToDiscord() {
+            window.open('https://discord.gg/d2qfZDA', '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="center">
+        <p>Вы вступили в мой Discord сервер MENDION-TEAM?</p>
+        <button onclick="redirectToCheck()">Да</button>
+        <button onclick="redirectToDiscord()">Нет</button>
+    </div>
+</body>
+</html>
